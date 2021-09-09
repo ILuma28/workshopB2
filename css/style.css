@@ -1,5 +1,5 @@
 body {
-    background: url("https://cdn.shopify.com/s/files/1/0177/9630/products/terrain-babyfoot_grande.jpg?v=1493063869");
+    background: url("https://cdn.shopify.com/s/files/1/0177/9630/products/terrain-babyfoot_grande.jpg?v=1493063869%22");
     background-size: cover;
     align-items: center;
     text-align: center;
@@ -8,7 +8,7 @@ body {
 }
 .formulaire {
     position: relative;
-    -ms-transform: translateY(-30%);
+    
     z-index: 2;
 }
 
