@@ -116,7 +116,7 @@ $('#envoyer').click((event) => {
     if (!erreur){
         $.ajax({
             type: 'POST',
-            url: '../php/new_admin.php',
+            url: '../php/newUser.php',
             dataType: 'json',
             data : {
                 mail : document.querySelector("#mail").value,
@@ -134,8 +134,8 @@ $('#envoyer').click((event) => {
                     window.location.href = "./home.html";;
                 }
             },
-            error: () => {
-              alert('Erreur !');
+            error: (data) => {
+              console.log(data);
             }
           });
     } else {

@@ -16,7 +16,7 @@ $('#envoyer').click((event) => {
         }
     }
 
-    //On vérifie que l'email a été entré avec un forma valide
+    //On vérifie que l'email a été entré avec un format valide
     let str = document.querySelector("#mail").value;
     if(str!=''){
         if(!str.includes('@')){
@@ -50,8 +50,8 @@ $('#envoyer').click((event) => {
                     window.location.replace(data.message);
                 }
             },
-            error: () => {
-              alert('Erreur !');
+            error: (data) => {
+              console.log(data);
             }
           });
     } else {
