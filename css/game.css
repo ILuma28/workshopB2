@@ -1,0 +1,42 @@
+body {
+    background: url("https://cdn.shopify.com/s/files/1/0177/9630/products/joueurs-acier-babyfoot_grande.jpg?v=1493063869");
+    background-size: cover;
+    font-family: Tahoma, sans-serif;
+}
+
+.titles , .content{
+    text-align: center;
+    color: darkslategrey;
+}
+
+img.spell{
+    width: 200px;
+	height: 200px;
+    margin-left: 115px;
+    margin-top: 150px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 50%;
+    border: 3px solid darkslategrey;
+    height: 100px;
+    margin-top: 150px;    
+}
+  
+th , td {
+    border-collapse: collapse;
+    border: 1.5px solid darkslategrey;
+}
+
+td.ekip1 {
+    background-color: lightcoral;
+}
+
+td.ekip2 {
+    background-color: lightseagreen;
+}
+
